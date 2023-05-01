@@ -11,7 +11,6 @@
 # Click on "Load unpacked" 
   # resizable-textarea/Readme/'Non-required' Files/Load_unpacked.png
   <img width="654" alt="Load_unpacked" src="https://user-images.githubusercontent.com/129756841/235394788-a3c9990a-e5c6-4f94-9ed0-e4b4a8503de3.png">
-<img width="749" alt="Toggle_extension" src="https://user-images.githubusercontent.com/129756841/235394823-df13ee2a-c7f6-4135-8e2a-4f4e3f3a65dc.png">
 
 # Select the 'resizable-textarea' folder
 # Now, when you click on the extension's icon, it should toggle the resizability of all text input areas on the page
