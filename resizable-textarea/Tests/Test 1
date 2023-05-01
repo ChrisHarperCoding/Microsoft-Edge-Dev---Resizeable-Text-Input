@@ -12,4 +12,8 @@ Result 1: PASS
 -Clicking the icon activates the extension OK
 -Resizing text input box horizontally OK
 -Resizing text input box vertically after resizing horizontally OK
+
+Bug
+-Little thing that you grab to resize the text input area doesn't 'stick' to the right place at the edge of the input box, it sort of sticks in the middle if you make the input box larger
+    -Doesn't dynamically move based on the size of the input Box
 */
