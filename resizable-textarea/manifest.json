@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Resizable Textarea",
+  "version": "1.0",
+  "description": "Make text input areas resizable in Microsoft Edge Dev",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Toggle resizable textarea"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
