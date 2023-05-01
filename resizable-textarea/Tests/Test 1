@@ -1,0 +1,15 @@
+/*
+
+Extension has loaded successfully
+-Issue - had to rename the manifest file as I had made a typo.
+    -Extension loaded fine once fixed
+
+Test 1:
+To test your extension, open Microsoft Edge Dev, go to edge://extensions, enable "Developer mode" (toggle switch in the bottom-left corner), click on "Load unpacked," and select the resizable-textarea folder you created earlier.
+
+Result 1: PASS
+-Extension loads OK
+-Clicking the icon activates the extension OK
+-Resizing text input box horizontally OK
+-Resizing text input box vertically after resizing horizontally OK
+*/
